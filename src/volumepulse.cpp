@@ -53,6 +53,7 @@ void WayfireVolumepulse::init (Gtk::HBox *container)
 {
     /* Create the button */
     plugin = std::make_unique <Gtk::HBox> ();
+    plugin->set_name (PLUGIN_NAME);
     container->pack_start (*plugin, false, false);
 
     /* Setup structure */
