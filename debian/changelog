@@ -1,3 +1,9 @@
+pplug-volumepulse (1.13) trixie; urgency=medium
+
+  * Set widget name to assist in debugging
+
+ -- Simon Long <simon@raspberrypi.com>  Fri, 19 Jun 2026 15:17:20 +0100
+
 pplug-volumepulse (1.12) trixie; urgency=medium
 
   * Fix input selection error caused by source query also returning sinks...
